@@ -1,0 +1,6 @@
+[book]
+authors = ["Hemen Kapadia"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Jottings - misc Engineering + Data Science notes."
