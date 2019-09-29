@@ -1,6 +1,35 @@
 [book]
+title = "" 
 authors = ["Hemen Kapadia"]
+description = "Jotting miscellaneous datascience and computer science notes for future reference"
 language = "en"
-multilingual = false
 src = "src"
-title = "Jottings - misc Engineering + Data Science notes."
+
+[build]
+build-dir = "docs"
+create-missing = true
+use-default-preprocessors = true
+
+[output.html]
+default-theme = "light"
+git-repository-url = "https://github.com/hemenkapadia/jottings"
+github-repository-icon = "fa-github"
+
+[output.html.playpen]
+editable = false
+copy-js = false
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 5
+boost-hierarchy = 3
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true
+
+
+
