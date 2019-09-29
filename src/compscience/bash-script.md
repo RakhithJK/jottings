@@ -1,1 +1,1 @@
-# apt Bash scripting
+# Bash scripting
