@@ -10,6 +10,10 @@ build-dir = "docs"
 create-missing = true
 use-default-preprocessors = true
 
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
+
 [output.html]
 default-theme = "light"
 git-repository-url = "https://github.com/hemenkapadia/jottings"
