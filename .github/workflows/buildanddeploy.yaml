@@ -1,0 +1,25 @@
+# Build and Deployment workflow for Jottings mdbook
+
+# Workflow metadata
+name: 'build-deploy'
+description: 'Builds and deploys Jottings using mdbook'
+
+# Trigger on push to master, where file is any Markdown file or book.toml
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '*.md'
+      - 'book.toml' 
+
+# 
+jobs:
+  build:
+    name: 'Build Jottings mdbook'
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+
