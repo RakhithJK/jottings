@@ -1,5 +1,6 @@
 # the build directory
 book
+docs
 
 # vscode folder specific settings
 .vscode
