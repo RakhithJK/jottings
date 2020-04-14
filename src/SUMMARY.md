@@ -9,4 +9,6 @@
     - [Git](./compscience/git.md)
     - [GitHub Actions](./compscience/github-actions.md)
     - [Makefile and make](./compscience/make.md)
+    - [Openssl](./compscience/openssl.md)
+    - [Python](./compscience/python/index.md)
 - [Data Science](./datascience/ds-home.md)
