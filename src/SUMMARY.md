@@ -8,6 +8,7 @@
     - [Docker](./compscience/docker.md)
     - [Git](./compscience/git.md)
     - [GitHub Actions](./compscience/github-actions.md)
+    - [Linux Commands](./compscience/linux-commands.md)
     - [Makefile and make](./compscience/make.md)
     - [Openssl](./compscience/openssl.md)
     - [Python](./compscience/python/index.md)
